@@ -31,8 +31,7 @@ Open IRIS terminal:
 
 ```
 $ docker-compose exec iris iris session iris
-USER>zn "IRISAPP"
-IRISAPP>Do ##class(Game.TicTacToe).Start()
+USER>Do ##class(dc.Game.TicTacToe).Start()
 ```
 
 
